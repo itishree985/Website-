@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>College Student Hub</title>
+  <style>
+   body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+   }
+
+   header {
+    background-color: #007bff;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+   }
+
+   nav {
+    background-color: #343a40;
+    color: white;
+    padding: 0.5em 0;
+    text-align: center;
+   }
+
+   nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.7em 1.5em;
+    display: inline-block;
+   }
+
+   nav a:hover {
+    background-color: #555;
+   }
+
+   .container {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   }
+
+   .hero {
+    text-align: center;
+    padding: 2em 0;
+   }
+
+   .hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+    color: #007bff;
+   }
+
+   .hero p {
+    font-size: 1.1em;
+    color: #666;
+   }
+
+   .section-heading {
+    font-size: 1.8em;
+    color: #333;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
+   }
+
+   .feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+   }
+
+   .feature-card {
+    background-color: #e9ecef;
+    padding: 15px;
+    border-radius: 6px;
+   }
+
+   .feature-card h3 {
+    color: #007bff;
+    margin-top: 0;
+   }
+
+   .feature-card p {
+    color: #555;
+   }
+
+   footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #343a40;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+   }
+
+   /* Styles for Review Section */
+   .review-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+   }
+
+   .review-author {
+    font-weight: bold;
+    margin-bottom: 5px;
+   }
+
+   .review-text {
+    font-style: italic;
+    color: #555;
+   }
+
+   /* Styles for Placement Guide Section */
+   .placement-guide-item {
+    margin-bottom: 15px;
+   }
+
+   .placement-guide-title {
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 5px;
+   }
+
+   .placement-guide-description {
+    color: #333;
+   }
+  </style>
+ </head>
+ <body>
+  <header>
+   <h1>Welcome to the College Hub</h1>
+  </header>
+
+  <nav>
+   <a href="#">Home</a>
+   <a href="#">Academics</a>
+   <a href="#">Clubs & Activities</a>
+   <a href="#">Resources</a>
+   <a href="#">Contact</a>
+   <a href="#">Reviews</a>
+   <a href="#">Placement Guide</a>
+  </nav>
+
+  <div class="container">
+   <section class="hero">
+    <h1>Connecting Students, Empowering Futures</h1>
+    <p>Your central platform for all things college life.</p>
+    </section>
+
+   <section>
+    <h2 class="section-heading">Explore Our Features</h2>
+    <div class="feature-grid">
+     <div class="feature-card">
+      <h3>Course Information</h3>
+      <p>Access details about your courses, syllabus, and important dates.</p>
+     </div>
+     <div class="feature-card">
+      <h3>Student Clubs</h3>
+      <p>Discover and join various clubs and organizations on campus.</p>
+     </div>
+     <div class="feature-card">
+      <h3>Study Resources</h3>
+      <p>Find helpful materials, notes, and links to academic resources.</p>
+     </div>
+     <div class="feature-card">
+      <h3>Events Calendar</h3>
+      <p>Stay updated on upcoming college events, workshops, and seminars.</p>
+     </div>
+     <div class="feature-card">
+      <h3>Discussion Forums</h3>
+      <p>Connect with fellow students and discuss course-related topics.</p>
+     </div>
+     <div class="feature-card">
+      <h3>Important Announcements</h3>
+      <p>Get the latest news and announcements from the college administration.</p>
+     </div>
+    </div>
+   </section>
+
+   <section>
+    <h2 class="section-heading">Student Reviews</h2>
+    <div class="review-card">
+     <p class="review-author">John </p>
+     <p class="review-text">"This college has a great learning environment and supportive faculty."</p>
+    </div>
+    <div class="review-card">
+     <p class="review-author">Jane </p>
+     <p class="review-text">"I really appreciate the resources available to students here."</p>
+    </div>
+    </section>
+
+   <section>
+    <h2 class="section-heading">Placement Guide</h2>
+    <div class="placement-guide-item">
+     <h3 class="placement-guide-title">Resume Writing Tips</h3>
+     <p class="placement-guide-description">Learn how to create a compelling resume that stands out to employers.</p>
+    </div>
+    <div class="placement-guide-item">
+     <h3 class="placement-guide-title">Interview Preparation</h3>
+     <p class="placement-guide-description">Get ready for your interviews with these helpful tips and strategies.</p>
+    </div>
+    </section>
+
+   <section>
+    <h2 class="section-heading">Get Involved</h2>
+    <p>Explore the vibrant community and numerous opportunities available at our college. Join a club, attend an event, and make the most of your college experience!</p>
+    </section>
+  </div>
+
+  <footer>
+   <p>&copy; 2025 College Student Hub</p>
+  </footer>
+ </body>
+ </html>
